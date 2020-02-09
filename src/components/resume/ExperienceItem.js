@@ -1,12 +1,53 @@
-// import React from 'react'; 
+import React from 'react'; 
+import PropTypes from 'prop-types';
 
-// export default function ExperienceItem() {
-//   return (
-//     <section>
-//       <h1>Heading</h1>
-//       <h2>Subheader</h2>
-//       <p>Description</p>
-//     </section>
+export const ExperienceItem1 = ({ header, subheader, description }) => {
+  return (
+    <section>
+      <h1>{header}</h1>
+      <h2>{subheader}</h2>
+      <p>{description}</p>
+    </section>
 
-//   );
-// }
+  );
+};
+
+ExperienceItem1.propTypes = {
+  header: PropTypes.string,
+  subheader: PropTypes.string,
+  description: PropTypes.string
+};
+
+
+export const ExperienceItem2 = ({ header, subheader, description }) => {
+  return (
+    <section>
+      <h1>{header}</h1>
+      <h2>{subheader}</h2>
+      <p>{description}</p>
+    </section>
+  
+  );
+};
+  
+ExperienceItem2.propTypes = {
+  header: PropTypes.string,
+  subheader: PropTypes.string,
+  description: PropTypes.string
+};
+export const ExperienceItem3 = ({ header, subheader, description }) => {
+  return (
+    <section>
+      <h1>{header}</h1>
+      <h2>{subheader}</h2>
+      <p>{description}</p>
+    </section>
+    
+  );
+};
+    
+ExperienceItem3.propTypes = {
+  header: PropTypes.string,
+  subheader: PropTypes.string,
+  description: PropTypes.string
+};

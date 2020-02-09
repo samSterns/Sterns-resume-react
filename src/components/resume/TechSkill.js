@@ -1,22 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles/TechSkill.css';
 
 const TechSkill = ({ practices, tools, databases, languages, libraries, frameworks }) => {
   return (
-    <ul className={StyleSheet.TechSkill}>
+    <div className={StyleSheet.TechSkill}>
       <h5><span>Practices</span> </h5>
-      <li>{practices}</li>
+      <div>{practices}</div>
       <h5><span>Tools</span> </h5>
-      <li>{tools}</li>
+      <div>{tools}</div>
       <h5><span>Databases</span> </h5>
-      <li>{databases}</li>
+      <div>{databases}</div>
       <h5><span>Languages</span></h5>
-      <li>{languages}</li>
-      <h5><span>Libraries</span></h5>
-      <li>{libraries}</li>
+      <div>{languages}</div>
+      <h5><span>libraries</span></h5>
+      <div>{libraries}</div>
       <h5><span>Frameworks</span></h5>
-      <li>{frameworks}</li>
-    </ul>
+      <div>{frameworks}</div>
+    </div>
   );
 };
 

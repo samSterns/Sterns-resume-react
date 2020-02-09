@@ -1,26 +1,46 @@
-
-.Article{
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+.Wrapper{
     margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 35% 35% 30%;
   }
   
-  .Main{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
   
-  .sectionOne{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    border: 5px solid black;
-    height: 80vh;
-    padding: 15px;
-  }
-  
-  .sectionTwo{
-    display: flex;
-    flex-direction: column;
-    width: 35vw;
-    padding: 15px;
-  }
+.columnOne{
+  border: 5px solid rgb(212, 127, 17);
+  padding: 15px;
+}
+
+.headerSection{
+  border: 5px solid rgb(17, 150, 212);
+  padding: 15px;
+}
+.profileSection{
+  border: 5px solid rgb(17, 212, 43);
+  padding: 15px;
+}
+.contactsSection{
+  border: 5px solid rgb(192, 212, 17);
+  padding: 15px;
+}
+.techSection{
+  border: 5px solid rgb(166, 17, 212);
+  padding: 15px;
+}
+
+.columnTwo{
+  border: 5px solid rgb(36, 17, 212);
+}
+
+.rowOne{
+  border: 5px solid rgb(212, 17, 179);
+}
+
+.rowTwo{
+  border: 5px solid rgb(17, 212, 82);
+}

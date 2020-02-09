@@ -4,7 +4,7 @@
         "title":"Software Developer"
     },
     "profile": {
-      "profileStatement":"blad blah"
+      "profileStatement":"Full-Stack developer, whose growth mindset and expertise in restorative conflict resolution inform their passion for solving people centered problems with software solutions. I believe technology is a tool to build equity."
     },
     "contacts": {
         "email":"sam.g.sterns@gmail.com",
@@ -21,5 +21,26 @@
       "libraries":"Chart.js, Mongoose",
       "testing":"Jest, QUnit, Enzyme",
       "frameworks":"Node.js, Express, React.js, Redux"
+    },
+    "projectItem":{
+      "header":"Follow the Money",
+      "subheader":"JavaScript, CSS, HTML, third party API",
+      "description":"Mobil first App that uses the Federal Election Comminssions API to provide customizable data visualization"
+    }, 
+    "experienceItem1":{
+      "header":"Alchemy Code Lab",
+      "subheader":"Intensive Software Engineer Program 2020",
+      "description":"Undertook a rigorous full-stack professional training focusing on clean code and collaboration. I developed on teams and solo to build server-side and client-side applications, using architectures and frameworks that promote maintainability, scalability, and collaboration."
+    },
+    "experienceItem2":{
+      "header":"University of California Berkeley",
+      "subheader":"Bachelor of Arts in Interdisciplinary Studies, 2017 Graduated Magna Cum Laude",
+      "description":"Mastered independently designed coursework focused on education, social research, human rights, & statistics to examine school discipline reform. I authored two years of original research working as a Restorative Justice Councilor in public schools where I implemented original curriculum, facilitated conflict resolution, and trained faculty. The quantitative data from my thesis informed statewide policy. "
+    },
+    "ExperienceItem3":{
+      "header":"Restorative Justice Consultant",
+      "subheader":"Independent Consultant",
+      "description":"I founded the consultancy because I wanted to contribute to my community as a restorative justice counselor. I grew the business from word of mouth as I facilitated groups of professionals to build community. We confronted difficult topics including diversity, equity, & inclusion. I created long term action plans. I coached conflict resolution techniques and mediated conflicts, all while I developed the ability to navigate high-stress situations with composure."
     }
+
 }

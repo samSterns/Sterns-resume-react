@@ -1,0 +1,21 @@
+.TechSkill{
+    list-style: none;
+
+    h5{
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+  
+    li{
+      font-family: 'Montserrat Light', sans-serif;
+      list-style: none;
+      font-size: 40px;
+      margin-left: 40px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+  }
+  
