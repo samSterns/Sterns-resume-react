@@ -21,11 +21,11 @@ const Contacts = ({ email, portfolio, github, linkedIn, phoneNumber }) => {
 };
 
 Contacts.propTypes = {
-  email: PropTypes.string.isRequired,
-  portfolio: PropTypes.string.isRequired,
-  github: PropTypes.string.isRequired,
-  linkedIn: PropTypes.string.isRequired,
-  phoneNumber: PropTypes.string.isRequired
+  email: PropTypes.string,
+  portfolio: PropTypes.string,
+  github: PropTypes.string,
+  linkedIn: PropTypes.string,
+  phoneNumber: PropTypes.string
 };
   
 export default Contacts;

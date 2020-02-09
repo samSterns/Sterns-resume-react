@@ -3,51 +3,23 @@
         "name":"Sam Sterns",
         "title":"Software Developer"
     },
-    "Contacts": {
+    "profile": {
+      "profileStatement":"blad blah"
+    },
+    "contacts": {
         "email":"sam.g.sterns@gmail.com",
-        "portfolio":"sam.g.sterns/com",
+        "portfolio":"sam.g.sterns.com",
         "github":"/samSterns",
         "linkedIn":"/samsterns",
         "phonenumber":"555-5555"
     },
-    "techStack":{
-        "practices":[
-          "Test Driven Development",
-          "Design Driven Development",
-          "WCAG"
-        ],
-        "tools":[
-          "Heroku",
-          "Github",
-          "Webpack",
-          "Kaban",
-          "PgAdmin",
-          "Postman",
-          "Strata",
-          "AdobeXd"
-        ],
-        "databases":[
-         "PostgreSQL",
-         "MongoDB"
-        ],
-        "languages":[
-            "HTML/CSS",
-            "JavaScript"
-        ],
-        "libraries":[
-          "Chart.js",
-          "Mongoose"
-        ],
-        "testing":[
-          "Jest",
-          "QUnit",
-          "Enzyme"
-        ],
-        "frameworks":[
-            "Node.js",
-            "Express",
-            "React.js",
-            "Redux"
-        ]
-      }
+    "techSkill":{
+      "practices":"TDD, DDD, WCAG",
+      "tools":"Heroku, GitHub, Webpack, Kaban, PgAdmin, Postman, Strata, AdobeXd",
+      "databases":"PostgresSQL, MongoDB",
+      "languages":"HTML/CSS, JavaScript",
+      "libraries":"Chart.js, Mongoose",
+      "testing":"Jest, QUnit, Enzyme",
+      "frameworks":"Node.js, Express, React.js, Redux"
+    }
 }

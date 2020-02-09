@@ -2,18 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles/Profile.css';
 
-const Profile = ({ Profile }) => {
+const Profile = ({ profileStatement }) => {
   return (
     <div className={styles.Profile}>
       <p>
-        {Profile}
+        {profileStatement}
       </p>
     </div>
   );
 };
 
 Profile.propTypes = {
-  Profile: PropTypes.string.isRequired
+  profileStatement: PropTypes.string
 };
 
 export default Profile;
