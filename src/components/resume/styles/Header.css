@@ -1,0 +1,9 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 55vw;
+    height: 15vh;
+    padding: 20px 20px 20px 0px;
+}

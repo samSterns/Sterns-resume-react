@@ -1,0 +1,10 @@
+
+.Profile{
+    display: flex;
+    flex-direction: column;
+    
+    p{
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+  }
