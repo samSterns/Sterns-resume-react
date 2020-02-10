@@ -1,17 +1,15 @@
 .Header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     margin: 0 auto;
     width: 55vw;
     height: 15vh;
     padding: 20px 20px 20px 0px;
-    
-    h1 {
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 20px;
+    color: #819975;
         
-    }
     h2 {
         font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #424846;
     }
 }

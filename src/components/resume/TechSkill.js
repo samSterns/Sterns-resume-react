@@ -5,18 +5,20 @@ import styles from './styles/TechSkill.css';
 const TechSkill = ({ practices, tools, databases, languages, libraries, frameworks }) => {
   return (
     <div className={StyleSheet.TechSkill}>
-      <h5><span>Practices</span> </h5>
-      <div>{practices}</div>
-      <h5><span>Tools</span> </h5>
-      <div>{tools}</div>
-      <h5><span>Databases</span> </h5>
-      <div>{databases}</div>
-      <h5><span>Languages</span></h5>
-      <div>{languages}</div>
-      <h5><span>libraries</span></h5>
-      <div>{libraries}</div>
-      <h5><span>Frameworks</span></h5>
-      <div>{frameworks}</div>
+      <div className={styles.nestedWrapper}>
+        <h5><span>Practices</span> </h5>
+        <p>{practices}</p>
+        <h5><span>Tools</span> </h5>
+        <p>{tools}</p>
+        <h5><span>Databases</span> </h5>
+        <p>{databases}</p>
+        <h5><span>Languages</span></h5>
+        <p>{languages}</p>
+        <h5><span>libraries</span></h5>
+        <p>{libraries}</p>
+        <h5><span>Frameworks</span></h5>
+        <p>{frameworks}</p>
+      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Header from '../components/resume/Header';
 import Contacts from '../components/resume/Contact'; 
 import Profile from '../components/resume/Profile';
 import TechSkill from '../components/resume/TechSkill';
-import { ExperienceItem1, ExperienceItem2, ExperienceItem3 }  from '../components/resume/ExperienceItem';
+import { ExperienceItem1, ExperienceItem2, ExperienceItem3, ExperienceItem4 }  from '../components/resume/ExperienceItem';
 import ProjectItem from '../components/resume/ProjectItem';
 import styles from './Resume.css';
 import data from '../resume.json';
@@ -11,7 +11,7 @@ import data from '../resume.json';
 export default class Resume extends Component {
 
   render(){
-    const { header, profile, contacts, techSkill, projectItem, experienceItem1, experienceItem2, experienceItem3 } = data;
+    const { header, profile, contacts, techSkill, projectItem, experienceItem1, experienceItem2, experienceItem3, experienceItem4 } = data;
 
     return (
       <article className={styles.Wrapper}>
@@ -37,6 +37,7 @@ export default class Resume extends Component {
             <ExperienceItem1 {...experienceItem1} />
             <ExperienceItem2 {...experienceItem2} />
             <ExperienceItem3 {...experienceItem3} />
+            <ExperienceItem4 {...experienceItem4} />
           </div>
         </section>
       </article>

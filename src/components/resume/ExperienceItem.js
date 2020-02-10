@@ -51,3 +51,20 @@ ExperienceItem3.propTypes = {
   subheader: PropTypes.string,
   description: PropTypes.string
 };
+
+export const ExperienceItem4 = ({ header, subheader, description }) => {
+  return (
+    <section>
+      <h1>{header}</h1>
+      <h2>{subheader}</h2>
+      <p>{description}</p>
+    </section>
+    
+  );
+};
+    
+ExperienceItem4.propTypes = {
+  header: PropTypes.string,
+  subheader: PropTypes.string,
+  description: PropTypes.string
+};
