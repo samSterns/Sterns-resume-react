@@ -14,7 +14,7 @@ const TechSkill = ({ practices, tools, databases, languages, libraries, framewor
         <p>{databases}</p>
         <h5><span>Languages</span></h5>
         <p>{languages}</p>
-        <h5><span>libraries</span></h5>
+        <h5><span>Libraries</span></h5>
         <p>{libraries}</p>
         <h5><span>Frameworks</span></h5>
         <p>{frameworks}</p>

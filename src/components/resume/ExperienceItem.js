@@ -1,9 +1,10 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
+import styles from '../resume/styles/ExperienceItem.css';
 
 export const ExperienceItem1 = ({ header, subheader, description }) => {
   return (
-    <section>
+    <section className={styles.wrapper}>
       <h1>{header}</h1>
       <h2>{subheader}</h2>
       <p>{description}</p>
