@@ -2,15 +2,33 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif; */
-.Wrapper{
+body, html {
+  height: 100%;
+}
+
+.hero {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../components/resume/styles/assets/heroImage.jpeg');
+
+height: 50%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin: 0;
+}
+
+
+/* .Wrapper{
     margin: 0 auto;
     height: 100%;
     display: grid;
     grid-template-columns: 30% 70%;
     grid-auto-rows:minmax(100px, auoto);
-    /* grid-template-rows: 35% 35% 30%; */
-    grid-gap: 1em;
-  }
+     grid-template-rows: 35% 35% 30%; 
+     grid-gap: 1em;
+  
   
   
 .columnOne{
@@ -45,4 +63,4 @@ font-family: 'Raleway', sans-serif; */
 
 .rowTwo{
   border: 5px solid rgb(17, 212, 82);
-}
+}  */

@@ -1,13 +1,11 @@
 {
     "header": {
-        "name":"Sam Sterns",
-        "title":"Software Developer"
+        "name":"Sam Sterns"
     },
     "profile": {
-      "profileStatement":"Full-Stack developer, whose growth mindset and expertise in restorative conflict resolution inform their passion for solving people centered problems with software solutions. I believe technology is a tool to build equity."
+      "profileStatement":"Full-Stack Developer, whose growth mindset and expertise in restorative conflict resolution inform their passion for solving people-centered problems with innovative solutions. I believe technology is a tool to build equity, which is why I focus on creating inclusive, impactful, and maintainable digital products. I will bring authenticity and agility to your engineering team."
     },
     "contacts": {
-        "email":"sam.g.sterns@gmail.com",
         "portfolio":"sam.g.sterns.com",
         "github":"/samSterns",
         "linkedIn":"/samsterns",
