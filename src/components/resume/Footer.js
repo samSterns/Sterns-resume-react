@@ -7,9 +7,6 @@ const Footer = () => {
   return (
     <>
       <footer className={styles.Footer} >
-        <div>
-          {/* <button>Go</button> */}
-        </div>
       </footer>
     </>
   );
