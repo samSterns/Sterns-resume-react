@@ -1,0 +1,7 @@
+.Footer {
+    background-color: #708238;
+    width: 100%;
+    display: grid;
+    grid-area: footer;
+}
+

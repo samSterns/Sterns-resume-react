@@ -2,23 +2,50 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif; */
-body, html {
+* {
   height: 100%;
-}
+  margin: auto;
 
-.hero {
+  .item-a {
+    grid-area: header;
+  }
+  .item-b {
+    grid-area: profile;
+  }
+  .item-c {
+    grid-area: sideTop;
+  }
+  .item-d {
+    grid-area: sideBottom;
+  }
+  .item-e {
+    grid-area: buttons;
+  }
+  .item-f {
+    grid-area: footer;
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../components/resume/styles/assets/heroImage.jpeg');
+  }
+  
+  #hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 40% 20% 10%;
+    grid-template-areas: 
+      "header header"
+      "profile sideTop"
+      "button sideBottom"
+      "footer footer";
 
-height: 50%;
-
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-margin: 0;
-}
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../components/resume/styles/assets/heroImage.jpeg');
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 3%;
+  }
+};
 
 /* .Wrapper{
     margin: 0 auto;

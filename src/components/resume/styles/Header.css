@@ -4,12 +4,12 @@
     height: 15vh;
     padding: 20px 20px 20px 0px;
     font-family: 'Montserrat Bold', sans-serif;
-    font-size: 20px;
-    color: #819975;
-        
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        color: #424846;
+    font-size: 52px;
+    color: #DE6D43;
+
+    h1{
+        padding-left: 20px;
     }
+
+    
 }
