@@ -3,10 +3,19 @@ import styles from '../resume/styles/Footer.css';
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa'; 
 
 const Footer = () => {
+
+  const downloadResume = () => {
+    window.location.href = './styles/assets/SamSternsResume.pdf'
+  };
+
   return (
     <>
       <footer className={styles.Footer} >
-        <FaFileDownload alt="click to download my resume" className={styles.iconFile} size={32}/>
+        <form>
+          <button onClick={downloadResume}>
+            <FaFileDownload alt="click to download my resume" className={styles.iconFile} size={32}/>
+          </button>
+        </form>
         <a href={'https://github.com/samSterns'}>
           <FaGithub alt="click to Visit my git hub" className={styles.iconGit} size={32}/>
         </a>

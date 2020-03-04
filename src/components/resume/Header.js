@@ -5,8 +5,10 @@ import styles from '../resume/styles/Header.css';
 const Header = ({ name, title }) => {
   return (
     <>
-      <header className={styles.Header}>{name}</header>
-      <h2>{title}</h2>
+      <header className={styles.Header}>
+        <h1>{name}</h1>
+        <h3>{title}</h3>
+      </header>
     </>
   );
 };
