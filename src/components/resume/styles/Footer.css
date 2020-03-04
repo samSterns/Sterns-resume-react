@@ -1,7 +1,21 @@
 .Footer {
     background-color: #708238;
     width: 100%;
+    opacity: 0.5;
     display: grid;
-    grid-area: footer;
-}
+
+
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    
+    /* a{color: #ffffff;}
+    
+    <a:hover>{ color: #DE6D43;}
+    
+    <a:visited>{ color: #573E53;} */
+
+    display: flex;
+    flex: row;
+};
 

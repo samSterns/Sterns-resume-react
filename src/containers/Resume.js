@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../components/resume/Header';
-import LeftBox from '../components/LeftBox';
 import Profile from '../components/resume/Profile';
 import Footer from '../components/resume/Footer'; 
 // import TechSkill from '../components/resume/TechSkill';
@@ -12,13 +11,15 @@ import data from '../resume.json';
 export default class Resume extends Component {
 
   render(){
-    const { header, profile1, profile2, footer } = data;
-// need to only put components and do the other studd in their files too much 
+    const { header, profile, footer } = data;
+
+
+
     return (
-      < div className={styles.Resume} id={styles.hero} >
+      < div className={styles.Hero} >
         <Header {...header}/>
-        {/* <LeftBox {...profile1} /> */}
-        <Profile {...profile2}/>
+        
+        <Profile {...profile}/>
         <Footer {...footer}/>
       </div>
     );
