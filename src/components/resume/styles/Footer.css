@@ -1,19 +1,30 @@
 .Footer {
     background-color: #708238;
     width: 100%;
+    height:100%;
     opacity: 0.5;
     display: grid;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
     
-    /* a{color: #ffffff;}
-    
-    <a:hover>{ color: #DE6D43;}
-    
-    <a:visited>{ color: #573E53;} */
-
     display: flex;
-    flex: row;
+    flex: column;
     justify-content: space-evenly;
-};
+
+    
+    
+}
+
+.icon {
+    
+    cursor: pointer;
+
+    
+    :hover{ color: #DE6D43;};
+    
+    :visited{ color: #573E53;};
+
+  
+    
+}
 

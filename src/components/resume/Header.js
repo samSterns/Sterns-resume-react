@@ -7,7 +7,7 @@ const Header = ({ name, title }) => {
     <>
       <header className={styles.Header}>
         <h1>{name}</h1>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
       </header>
     </>
   );
