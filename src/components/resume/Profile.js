@@ -6,7 +6,7 @@ const Profile = ({ profileStatement }) => {
   return (
     <main className={styles.Profile}>
       <p> {profileStatement}</p>
-      <button>Portfolio Projects Coming Soon</button>
+      {/* <button>Learn More...</button> */}
     </main>
   );
 };
