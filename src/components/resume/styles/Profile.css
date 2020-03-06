@@ -3,17 +3,23 @@
       
       font-size: 100%;
       line-height: 22px;
-      font-weight: heavy;
       padding: 2%;
       font-family: 'Montserrat', sans-serif;
       color: #F8F2D2;
-      /* height: 20vh;
-      width: 40vw; */
       justify-content: center;
       text-align: center;
       vertical-align: bottom;
       padding-top: 10%;
 
-      
-}
 
+      button {
+            background: transparent;
+            color: #F8F2D2;
+            padding: 2%;
+            border: 1px solid #F8F2D2;
+            border-radius: 5px;
+            font-size: 100%;
+            float: left;
+      }
+
+}
