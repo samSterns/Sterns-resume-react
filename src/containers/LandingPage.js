@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Header from '../components/resume/Header';
-import Profile from '../components/resume/Profile';
+import Header from '../components/landingPage/Header';
+import Profile from '../components/landingPage/Profile';
+
 
 // import TechSkill from '../components/resume/TechSkill';
 // import { ExperienceItem1, ExperienceItem2, ExperienceItem3, ExperienceItem4 }  from '../components/resume/ExperienceItem';
 // import ProjectItem from '../components/resume/ProjectItem';
-import styles from './Resume.css';
+import styles from './LandingPage.css';
 import data from '../resume.json';
-import Projects from '../components/resume/Projects';
 
-export default class Resume extends Component {
+export default class LandingPage extends Component {
 
   render(){
     const { header, profile } = data;
@@ -22,7 +22,6 @@ export default class Resume extends Component {
         <Header {...header}/>
         
         <Profile {...profile}/>
-        <Projects />
       </div>
     );
     

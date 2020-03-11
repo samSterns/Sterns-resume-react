@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFileDownload, FaGithub, FaLinkedin } from 'react-icons/fa'; 
-import styles from '../resume/styles/NavBar.css';
+import styles from '../landingPage/styles/NavBar.css';
 
 
 const NavBar = () => {

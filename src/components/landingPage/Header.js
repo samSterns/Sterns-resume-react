@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../resume/styles/Header.css';
-import NavBar from '../resume/NavBar';
+import styles from '../landingPage/styles/Header.css';
+import NavBar from '../landingPage/NavBar';
 
 const Header = ({ name, title }) => {
   return (

@@ -15,7 +15,7 @@ font-family: 'Raleway', sans-serif; */
     grid-template-columns: 100%;
   
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('../components/resume/styles/assets/heroImage2.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('../components/landingPage/styles/assets/heroImage2.jpeg');
   
     /* background-position: relative;
     background-repeat: no-repeat;
