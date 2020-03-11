@@ -1,0 +1,11 @@
+.ProjectItem{
+    max-height: auto;
+    max-width: auto;
+    display: flex;
+    columns: row;
+    
+}
+.Card {
+    border: tomato;
+
+}
