@@ -1,11 +1,11 @@
 .ProjectItem{
-    max-height: auto;
-    max-width: auto;
-    display: flex;
-    columns: row;
+    display: grid;
+    margin: 1rem auto;
+   
+    grid-template-columns: 1fr;
+    perspective: 150rem;
+    position: relative;
+    height: 42rem;
+    width: 29rem;
     
-}
-.Card {
-    border: tomato;
-
 }

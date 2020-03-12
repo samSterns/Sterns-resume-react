@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+// import Grid from '@material-ui/core/Grid';
 import placeHolder from '../landingPage/styles/assets/succulent.png';
 import { FaGithub } from 'react-icons/fa';
 import styles from '../projectsSection/projectItem.css';
@@ -15,7 +16,8 @@ export const ProjectFTM = ({ header, siteURL, subheader, description, githubURL 
     <div className={styles.ProjectItem}>
       
       <Card>
-        <CardMedia style={{ height: 0, paddingTop: '56.25%' }}
+        <CardMedia 
+          style={{ height: 0, paddingTop: '56.25%' }}
           image={placeHolder}
           title={header}
         />
