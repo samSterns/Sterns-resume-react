@@ -6,7 +6,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 // import Grid from '@material-ui/core/Grid';
-import placeHolder from '../landingPage/styles/assets/succulent.png';
+import imageFTM from '../landingPage/styles/assets/followMoney.gif';
+import imagePet from '../landingPage/styles/assets/petPals.gif';
+import imageCL from '../landingPage/styles/assets/followMoney.gif';
 import { FaGithub } from 'react-icons/fa';
 import styles from '../projectsSection/projectItem.css';
 
@@ -18,7 +20,7 @@ export const ProjectFTM = ({ header, siteURL, subheader, description, githubURL 
       <Card>
         <CardMedia 
           style={{ height: 0, paddingTop: '56.25%' }}
-          image={placeHolder}
+          image={imageFTM}
           title={header}
         />
         <CardContent>
@@ -50,8 +52,8 @@ export const ProjectPetPals = ({ header, siteURL, subheader, description, github
     <div className={styles.ProjectItem}>
         
       <Card>
-        <CardMedia style={{ height: 0, paddingTop: '56.25%' }}
-          image={placeHolder}
+        <CardMedia className={styles.ProjectImage} 
+          image={imagePet}
           title={header}
         />
         <CardContent>
@@ -84,7 +86,7 @@ export const ProjectCovrLettr = ({ header, siteURL, subheader, description, gith
           
       <Card className={styles.Card}>
         <CardMedia style={{ height: 0, paddingTop: '56.25%' }}
-          image={placeHolder}
+          image={imageCL}
           title={header}
         />
         <CardContent>

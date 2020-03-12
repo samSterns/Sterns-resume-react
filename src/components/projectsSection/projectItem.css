@@ -4,8 +4,27 @@
    
     grid-template-columns: 1fr;
     perspective: 150rem;
-    position: relative;
     height: 42rem;
-    width: 29rem;
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 50%;
     
+    
+}
+
+.ProjectImage{
+    min-height: 70rem;
+
+}
+
+
+a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #DE6D43;
+    
+    a:visited { 
+        color: #573E53;
+    }
 }

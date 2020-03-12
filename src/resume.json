@@ -22,22 +22,22 @@
     },
     "projectFTM":{
       "header":"Follow the Money",
-      "subheader":"JavaScript, CSS, HTML, 3rd-party API",
-      "description":"Mobile first App that uses the Federal Election Commissions API to provide customizable data visualization",
+      "subheader":"JavaScript, CSS, HTML",
+      "description":"The mobile first App fetches from the Federal Election Commissions API to provide current and customizable data visualizations via Sankey graphs. The accessibility is increased by the interactive mirco copy and clean design.",
       "siteURL":"https://administrative-error.herokuapp.com/main/main.html",
       "githubURL":"https://github.com/administrativeError/campaign-project"
     }, 
     "projectPetPals":{
       "header":"Pet Pals",
       "subheader":"React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent",
-      "description":"Share the responsibility of letting your dog out with a neighbor by creating a profile and searching for other pet owners near you. Provides detailed profiles with profile pictures, real time messaging, location sharing, and suggestions of local places to meet. 5 day sprint with a team of 5.",
+      "description":"Share the responsibility of letting your dog out with a neighbor by creating a profile and searching for other pet owners near you. Provides detailed profiles with profile pictures stored in S3, real time messaging using socket.io, location sharing by accessing API, and suggestions of local places to meet. 5 day sprint with a team of 5.",
       "siteURL":"https://pet-pals.netlify.com",
       "githubURL":"https://github.com/Pet-Project-Alchemy"
     }, 
     "projectCovrLettr":{
       "header":"Covr Lettr",
       "subheader":"React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent",
-      "description":"SJob specific details populate original cover letters. Natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest scoring one. 4 day sprint with 4 teammates",
+      "description":"Job specific details populate original cover letters. Natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest scoring one. 4 day sprint with 4 teammates",
       "siteURL":"https://pet-pals.netlify.com",
       "githubURL":"https://github.com/covrLettr/covrLettr"
     }, 
