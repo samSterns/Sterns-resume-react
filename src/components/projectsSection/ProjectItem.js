@@ -18,7 +18,7 @@ export const ProjectFTM = ({ header, siteURL, subheader, description, githubURL 
     <div className={styles.ProjectItem}>
       
       <Card>
-        <CardMedia 
+        <CardMedia className={styles.ProjectImage} 
           style={{ height: 0, paddingTop: '56.25%' }}
           image={imageFTM}
           title={header}
@@ -51,8 +51,9 @@ export const ProjectPetPals = ({ header, siteURL, subheader, description, github
   return (
     <div className={styles.ProjectItem}>
         
-      <Card>
+      <Card className={styles.Card}>
         <CardMedia className={styles.ProjectImage} 
+          style={{ height: 0, paddingTop: '56.25%' }}
           image={imagePet}
           title={header}
         />
@@ -85,7 +86,9 @@ export const ProjectCovrLettr = ({ header, siteURL, subheader, description, gith
     <div className={styles.ProjectItem}>
           
       <Card className={styles.Card}>
-        <CardMedia style={{ height: 0, paddingTop: '56.25%' }}
+        <CardMedia 
+          className={styles.ProjectImage} 
+          style={{ height: 0, paddingTop: '56.25%' }}
           image={imageCL}
           title={header}
         />
