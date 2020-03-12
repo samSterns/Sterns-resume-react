@@ -1,8 +1,12 @@
 import React from 'react';
-import Resume from '../containers/Resume';
+import LandingPage from '../containers/LandingPage';
+import ProjectSection from '../containers/ProjectSection';
 
 export default function App() {
   return (
-    <Resume />
+    <>
+      <LandingPage />
+      <ProjectSection />
+    </>
   );
 }

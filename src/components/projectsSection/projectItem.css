@@ -1,0 +1,32 @@
+.ProjectItem{
+    display: grid;
+    margin: 1rem auto;
+   
+    grid-template-columns: 1fr;
+    perspective: 150rem;
+    /* height: rem; */
+  
+    border: 1px solid black;
+    border-radius: 50%;
+    
+    
+}
+
+.ProjectImage{
+    min-height: 23rem;
+    max-height: 0;
+    border: 2px solid black;
+   
+}
+
+
+a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #DE6D43;
+    
+    a:visited { 
+        color: #573E53;
+    }
+}
