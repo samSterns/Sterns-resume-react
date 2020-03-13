@@ -2,9 +2,10 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'; 
 import { MdEmail } from 'react-icons/md';
 import styles from '../landingPage/styles/NavBar.css';
-import AppBar from '@material-ui/core/AppBar';
+
+import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
+
 
 
 const NavBar = () => {
@@ -14,7 +15,7 @@ const NavBar = () => {
   return (
     <>
       <div className={styles.NavBar} >
-        <AppBar >
+        <Toolbar >
       
           <IconButton className={styles.NavItem}><a href="#about">About</a></IconButton>
           <IconButton className={styles.NavItem}><a href="#projects">Projects</a></IconButton>
@@ -40,7 +41,7 @@ const NavBar = () => {
             </a>
           </IconButton>
    
-        </AppBar>
+        </Toolbar>
       </div>
     </>
   );

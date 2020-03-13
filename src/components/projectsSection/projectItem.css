@@ -3,7 +3,7 @@
     margin: 1rem auto;
    
     grid-template-columns: 1fr;
-    perspective: 150rem;
+    /* perspective: 150rem; */
     /* height: rem; */
   
     border: 1px solid black;
@@ -13,8 +13,8 @@
 }
 
 .ProjectImage{
-    min-height: 23rem;
-    max-height: 0;
+    min-height: 22rem;
+    max-height: 22rem;
     border: 2px solid black;
    
 }

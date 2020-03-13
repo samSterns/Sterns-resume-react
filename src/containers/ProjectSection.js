@@ -1,34 +1,47 @@
 import React from 'react';
 import { ProjectFTM, ProjectPetPals, ProjectCovrLettr } from '../components/projectsSection/ProjectItem';
-import Grid from '@material-ui/core/Grid';
 import styles from './GridItem.css';
-
 import data from '../resume.json';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
-const ProjectSection = () => {
-
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+}));
+export default function ProjectSection() {
   const { projectFTM, projectPetPals, projectCovrLettr } = data;
-  return (
-    <>
-      <Grid container spacing={2}>
-        <Grid 
-          item xs={12} sm={6} 
-          className={styles.GridItem} >
+  const classes = useStyles();
+  function FormRow() {
+    return (
+      <React.Fragment>
+        <Grid item xs={6}>
           <ProjectFTM {...projectFTM} />
         </Grid>
-
-        <Grid item xs={12} 
-          className={styles.GridItem}>
+        <Grid item xs={6}>
           <ProjectPetPals {...projectPetPals} />
         </Grid>
-
-        <Grid item xs={12} 
-          className={styles.GridItem}>
-          <ProjectCovrLettr {...projectCovrLettr} />
+      </React.Fragment>
+    );
+  }
+  return (
+    <div className={classes.root}>
+      <Grid container spacing={1}>
+        <Grid container item xs={12} spacing={3}>
+          <FormRow />
+        </Grid>
+        <Grid container item xs={12} spacing={3}>
+          <FormRow />
         </Grid>
       </Grid>
-    </>
+    </div>
   );
-};
+}
 
-export default ProjectSection;
