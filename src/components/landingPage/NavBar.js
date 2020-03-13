@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <>
       <div className={styles.NavBar} >
-        <Toolbar >
+        <Toolbar className={styles.Toolbar}>
       
           <IconButton className={styles.NavItem}><a href="#about">About</a></IconButton>
           <IconButton className={styles.NavItem}><a href="#projects">Projects</a></IconButton>

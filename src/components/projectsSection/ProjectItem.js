@@ -6,9 +6,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 // import Grid from '@material-ui/core/Grid';
-import imageFTM from '../landingPage/styles/assets/followMoney.gif';
+import imageFTM from '../landingPage/styles/assets/petPals.gif';
 import imagePet from '../landingPage/styles/assets/petPals.gif';
-import imageCL from '../landingPage/styles/assets/followMoney.gif';
+import imageCL from '../landingPage/styles/assets/petPals.gif';
 import { FaGithub } from 'react-icons/fa';
 import styles from '../projectsSection/projectItem.css';
 
