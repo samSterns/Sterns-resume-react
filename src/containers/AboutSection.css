@@ -1,0 +1,13 @@
+.One {
+    position: absolute; 
+    font-family: serif; 
+    font-size: 42px; 
+    font-style: italic; 
+    font-weight: bold; 
+    color: rgb(124, 3, 198); 
+    transform: translate(104px, 336px) 
+    rotate(0deg); text-align: 
+    center; transform-origin: 
+    center bottom; 
+    white-space: nowrap; width: 224px;
+}
