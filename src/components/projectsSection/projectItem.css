@@ -12,7 +12,7 @@
     max-height: 40rem;
     width: auto;
      */
-    
+
 }
 
 .ProjectImage{
@@ -23,7 +23,7 @@
 }
 
 
-a {
+.ProjectLink {
     list-style: none;
     text-decoration: none;
     cursor: pointer;

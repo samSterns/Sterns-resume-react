@@ -4,19 +4,10 @@ a {
     text-decoration: none;
     
     color: #3976B5;
-  
-    a:hover{
-        background-color: white;
-    }
+   float: right;
     
     a:visited { 
         color: #573E53;
     }
-}
-
-.Bar {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 70%;
 }
  
