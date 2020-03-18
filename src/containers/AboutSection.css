@@ -2,7 +2,7 @@
 .container {
     max-width: 1335px;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 3rem;
   }
   .gridRow {
     display: flex;
@@ -29,7 +29,6 @@ img {
     height: 100%;
     width: 100%;
     align-self: center;
-    
 }
 
 .AboutP {
