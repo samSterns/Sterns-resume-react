@@ -3,26 +3,23 @@
 }
 
 .Card{
-    margin: 1rem 10rem 1rem 10rem;
+    margin: 1rem 20rem 1rem 20rem;
      border: 1px solid gray;
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
 }
 
-
 .ProjectImage{
     border: 5px solid #424846;
-    min-height: 0;
-    max-height: 10rem;
+  
+    padding-top: 56.25%;
+
 }
 h3 {
     color: #DE6D43;
  }
 
 a {
-    list-style: none;
-    text-decoration: none;
-    cursor: pointer;
     color: #3976B5; 
 }

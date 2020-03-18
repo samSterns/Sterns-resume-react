@@ -2,6 +2,7 @@
 .container {
     max-width: 1335px;
     margin: 0 auto;
+    padding: 5rem;
   }
   .gridRow {
     display: flex;
@@ -22,27 +23,6 @@
   -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
   box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     border-radius: 5%;
-  }
-
-  @media(max-width: 1333px) {
-    .grid-item {
-      flex-basis: 33.33%;
-    }
-  }
-  @media(max-width: 1073px) {
-     .grid-item {
-      flex-basis: 33.33%;
-    }
-  }
-  @media(max-width: 815px) {
-    .grid-item {
-      flex-basis: 50%;
-    }
-  }
-  @media(max-width: 555px) {
-    .grid-item {
-      flex-basis: 100%;
-    }
   }
 
 img {

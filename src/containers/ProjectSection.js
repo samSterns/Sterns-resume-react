@@ -4,7 +4,7 @@ import styles from './ProjectSection.css';
 import data from '../resume.json';
 
 export default function ProjectSection() {
-  const { projectFTM, projectPetPals, projectCovrLettr  } = data;
+  const { projectFTM, projectPetPals, projectCovrLettr, projectLyricus  } = data;
 
   return (
     <>
@@ -12,6 +12,7 @@ export default function ProjectSection() {
       <section className={styles.ProjectList} >
         <Project className={styles.ProjectListItem} {...projectPetPals} />
         <Project className={styles.ProjectListItem} {...projectCovrLettr} />
+        <Project className={styles.ProjectListItem} {...projectLyricus} />
         <Project className={styles.ProjectListItem} {...projectFTM} />
       </section>
     </>

@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <LandingPage />
-      <ProjectSection />
       <AboutSection />
+      <ProjectSection />
       <Footer />
     </>
   );

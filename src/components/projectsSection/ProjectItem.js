@@ -14,7 +14,6 @@ export const Project = ({ image, header, siteURL, subheader, description, github
         
       <Card className={styles.Card}>
         <CardMedia className={styles.ProjectImage} 
-          style={{ height: 0, paddingTop: '56.25%' }}
           image={image}
           title={header}
         />
@@ -32,12 +31,14 @@ export const Project = ({ image, header, siteURL, subheader, description, github
           </Typography>
   
         </CardContent>
+
         <CardActions>
           <Button size="small" color="primary"  target="_blank">
             <a className={styles.ProjectLink} href={githubURL}>
               <FaGithub alt="click here to Visit this project's git hub" size={36}/> </a>
           </Button> 
         </CardActions>
+        
       </Card>
     </div>
   );
