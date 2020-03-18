@@ -1,0 +1,18 @@
+.ProjectListHeader{
+    font-family: 'Montserrat Bold', sans-serif;
+    color: #DE6D43;
+    padding-top: 1rem;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.ProjectList {
+   
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ProjectListItem{
+    width: 35%;
+}

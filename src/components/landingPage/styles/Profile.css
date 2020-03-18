@@ -12,14 +12,12 @@
       padding-top: 10%;
 
 
-      button {
+      div {
             background: transparent;
             color: #F8F2D2;
             padding: 2%;
-            border: 1px solid #F8F2D2;
-            border-radius: 5px;
             font-size: 100%;
-            float: left;
+            justify-content: center;
       }
 
 }

@@ -9,8 +9,8 @@ const NavBar = () => {
   return (
     <>
       <Toolbar className={styles.Bar}>
-        <IconButton className={styles.NavItem}><a href="#about">About</a></IconButton>
-        <IconButton className={styles.NavItem}><a href="#projects">Projects</a></IconButton>
+        {/* <IconButton className={styles.NavItem}><a href="#about">About</a></IconButton>
+        <IconButton className={styles.NavItem}><a href="#projects">Projects</a></IconButton> */}
         <IconButton className={styles.NavItem}>    
           <a href={'https://github.com/samSterns'}>
             <FaGithub alt="click here to Visit my git hub" className={styles.icon} size={36}/>

@@ -1,35 +1,28 @@
-.ProjectItem{
-    display: grid;
-    margin: 3rem;
-   
-    grid-template-columns: 1fr;
-    /* perspective: 150rem; */
-    /* height: rem; */
-  
-    border: 1px solid black;
-    border-radius: 50%;
-    /* min-height: 12rem;
-    max-height: 40rem;
-    width: auto;
-     */
-
+.ProjectItem {
+    justify-content: center;
 }
+
+.Card{
+    margin: 1rem 10rem 1rem 10rem;
+     border: 1px solid gray;
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
 
 .ProjectImage{
-    min-height: 7rem;
-    max-height: 18rem;
-    border: 2px solid black;
-   
+    border: 5px solid #424846;
+    min-height: 0;
+    max-height: 10rem;
 }
+h3 {
+    color: #DE6D43;
+ }
 
-
-.ProjectLink {
+a {
     list-style: none;
     text-decoration: none;
     cursor: pointer;
-    color: #DE6D43;
-    
-    a:visited { 
-        color: #573E53;
-    }
+    color: #3976B5; 
 }

@@ -6,7 +6,7 @@ const Profile = ({ profileStatement }) => {
   return (
     <main className={styles.Profile}>
       <p> {profileStatement}</p>
-      {/* <button>Learn More...</button> */}
+      <div> ⬇️ Learn More ⬇️ </div>
     </main>
   );
 };
@@ -16,4 +16,3 @@ Profile.propTypes = {
 };
 
 export default Profile;
-

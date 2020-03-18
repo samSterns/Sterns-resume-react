@@ -21,16 +21,17 @@
       "frameworks":"Node.js, Express, React.js, Redux"
     },
     "projectFTM":{
+      "image":"http://tineye.com/images/widgets/mona.jpg",
       "header":"Follow the Money",
       "subheader":"JavaScript, CSS, HTML",
-      "description":"The mobile first App fetches from the Federal Election Commissions API to provide current and customizable data visualizations via Sankey graphs. The accessibility is increased by the interactive mirco copy and clean design.",
+      "description":"The mobile-first App fetches from the Federal Election Commissions API to provide current and customizable data visualizations via Sankey graphs. The accessibility is increased by the interactive mirco-copy and clean design.",
       "siteURL":"https://administrative-error.herokuapp.com/main/main.html",
       "githubURL":"https://github.com/administrativeError/campaign-project"
     }, 
     "projectPetPals":{
       "header":"Pet Pals",
       "subheader":"React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent",
-      "description":"Share the responsibility of letting your dog out with a neighbor by creating a profile and searching for other pet owners near you. Provides detailed profiles with profile pictures stored in S3, real time messaging using socket.io, location sharing by accessing API, and suggestions of local places to meet. 5 day sprint with a team of 5.",
+      "description":"Share the responsibility of letting your dog out with a neighbor by creating a profile and searching for other pet owners near you. The app provides detailed profiles with profile pictures stored in AWS S3, real time messaging using socket.io, location sharing by accessing API, and suggestions of local places to meet. 5 day sprint with a team of 5 developers.",
       "siteURL":"https://pet-pals.netlify.com",
       "githubURL":"https://github.com/Pet-Project-Alchemy"
     }, 
@@ -41,6 +42,13 @@
       "siteURL":"https://pet-pals.netlify.com",
       "githubURL":"https://github.com/covrLettr/covrLettr"
     }, 
+    "projectLyricus":{
+      "header":"Lyricus",
+      "subheader":"React.js, Redux, NPM, Node.js, Express, Jest, Superagent, Material-UI",
+      "description":"Utilizes React Hooks to fetch musical artists and lyrics. The design is WCAG AA compliant and uses minimalist illustration with UX features like pagination and breadcrumbs.",
+      "siteURL":"https://romantic-lalande-b6c8a5.netlify.com/",
+      "githubURL":"https://github.com/samSterns/lyricus-"
+    },
     "experienceItem1":{
       "header":"Alchemy Code Lab",
       "subheader":"Intensive Software Engineer Program 2020",
