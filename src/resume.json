@@ -4,7 +4,7 @@
         "title":"Software Developer"
       },
     "profile": {
-      "profileStatement":"A growth mindset and expertise in restorative conflict resolution inform my passion for solving people-centered problems with innovative solutions. I believe technology is a tool to build equity, which is why I focus on creating inclusive, impactful, and maintainable digital products. I will bring authenticity and agility to your engineering team."
+      "profileStatement":"I believe technology is a tool to build equity, which is why I focus on creating inclusive, impactful, and maintainable digital products. I will bring authenticity and agility to your engineering team."
     },
     "contacts": {
         "portfolio":"sam.g.sterns.com",
@@ -20,11 +20,36 @@
       "testing":"Jest, QUnit, Enzyme",
       "frameworks":"Node.js, Express, React.js, Redux"
     },
-    "projectItem":{
+    "projectFTM":{
+      "imageP":"https://drive.google.com/file/d/1bo4zCV1w54m5i0A8LnGCVWky63BgNTGf/view",
       "header":"Follow the Money",
-      "subheader":"JavaScript, CSS, HTML, third party API",
-      "description":"Mobil first App that uses the Federal Election Comminssions API to provide customizable data visualization"
+      "subheader":"JavaScript, CSS, HTML",
+      "description":"The mobile-first App fetches from the Federal Election Commissions API to provide current and customizable data visualizations via Sankey graphs. The accessibility is increased by the interactive mirco-copy and clean design.",
+      "siteURL":"https://administrative-error.herokuapp.com/main/main.html",
+      "githubURL":"https://github.com/administrativeError/campaign-project"
     }, 
+    "projectPetPals":{
+      "header":"Pet Pals",
+      "subheader":"React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent",
+      "description":"Share the responsibility of letting your dog out with a neighbor by creating a profile and searching for other pet owners near you. The app provides detailed profiles with profile pictures stored in AWS S3, real time messaging using socket.io, location sharing by accessing API, and suggestions of local places to meet. 5 day sprint with a team of 5 developers.",
+      "siteURL":"https://pet-pals.netlify.com",
+      "githubURL":"https://github.com/Pet-Project-Alchemy"
+    }, 
+    "projectCovrLettr":{
+      "header":"Covr Lettr",
+      "subheader":"React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent",
+      "description":"Job specific details populate original cover letters. Natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest scoring one. 4 day sprint with 4 teammates",
+      "siteURL":"https://pet-pals.netlify.com",
+      "githubURL":"https://github.com/covrLettr/covrLettr"
+    }, 
+    "projectLyricus":{
+      "imageP":"https://drive.google.com/open?id=1t9klpglsE6aNBs8_5P6VxGZVJvmqHoN3",
+      "header":"Lyricus",
+      "subheader":"React.js, Redux, NPM, Node.js, Express, Jest, Superagent, Material-UI",
+      "description":"Utilizes React Hooks to fetch musical artists and lyrics. The design is WCAG AA compliant and uses minimalist illustration with UX features like pagination and breadcrumbs.",
+      "siteURL":"https://romantic-lalande-b6c8a5.netlify.com/",
+      "githubURL":"https://github.com/samSterns/lyricus-"
+    },
     "experienceItem1":{
       "header":"Alchemy Code Lab",
       "subheader":"Intensive Software Engineer Program 2020",
@@ -43,7 +68,7 @@
     "ExperienceItem4":{
       "header":"Project Research Lead",
       "subheader":"Sustainabilist, part-time, 2017 - 2019",
-      "description":"Consulted closely with engineers and data scientists at the tech start-up which makes a new technology to improve the installation of solar panels. I used quantitative analysis skills to make detailed reports that synthesized market research, compiled data analytics, and organized logistics with clients."
+      "description":"Consulted closely with engineers and data scientists at the tech start-up which makes a new technology to improve the installation of solar panels. I used quantitative analysis skills to make detailed reports that synthesized market research, compiled data analytics, and organized logistics with clients. ------ A growth mindset and expertise in restorative conflict resolution inform my passion for solving people-centered problems with innovative solutions. "
     }
 
 

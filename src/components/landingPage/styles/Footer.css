@@ -1,0 +1,10 @@
+.NavItem {
+    color: #3976B5;
+    display: flex;
+    justify-content: space-around;
+    
+    a:visited { 
+        color: #573E53;
+    }
+}
+ 

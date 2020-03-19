@@ -1,0 +1,22 @@
+a {
+    
+    list-style: none;
+    text-decoration: none;
+    
+    color: #3976B5;
+  
+    a:hover{
+        background-color: white;
+    }
+    
+    a:visited { 
+        color: #573E53;
+    }
+}
+
+.Bar {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 70%;
+}
+ 

@@ -1,0 +1,19 @@
+.ProjectListHeader{
+    font-family: 'Montserrat Bold', sans-serif;
+    color: #DE6D43;
+    padding-top: 1rem;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.ProjectList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 600px) {
+    .ProjectList {
+        grid-template-columns: 1fr
+    }
+  }
+

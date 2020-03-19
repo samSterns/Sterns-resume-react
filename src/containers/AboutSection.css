@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    width: auto;
+  }
+
+  
+  .gridItem {
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    border-radius: 5%;
+    margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+      grid-template-columns: 1fr
+  }
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+.AboutP {
+    color: black;
+    font-size: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+} 
