@@ -14,7 +14,7 @@ const NavBar = () => {
         {/* <IconButton className={styles.NavItem}><a href="#about">About</a></IconButton>
         <IconButton className={styles.NavItem}><a href="#projects">Projects</a></IconButton> */}
         <IconButton className={styles.NavItem}>    
-          <a href={'https://github.com/samSterns'}>
+          <a href={'https://github.com/samSterns'} target="_blank">
             <FaGithub alt="click here to Visit my git hub" className={styles.icon} size={36}/>
           </a></IconButton>
         <IconButton className={styles.NavItem}>
