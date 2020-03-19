@@ -1,9 +1,10 @@
 .ProjectItem {
     justify-content: center;
+    
 }
 
 .Card{
-
+    margin: 1rem 2rem;
      border: 1px solid gray;
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);

@@ -21,7 +21,7 @@
       "frameworks":"Node.js, Express, React.js, Redux"
     },
     "projectFTM":{
-      "image":"http://tineye.com/images/widgets/mona.jpg",
+      "imageP":"https://drive.google.com/file/d/1bo4zCV1w54m5i0A8LnGCVWky63BgNTGf/view",
       "header":"Follow the Money",
       "subheader":"JavaScript, CSS, HTML",
       "description":"The mobile-first App fetches from the Federal Election Commissions API to provide current and customizable data visualizations via Sankey graphs. The accessibility is increased by the interactive mirco-copy and clean design.",
@@ -43,6 +43,7 @@
       "githubURL":"https://github.com/covrLettr/covrLettr"
     }, 
     "projectLyricus":{
+      "imageP":"https://drive.google.com/open?id=1t9klpglsE6aNBs8_5P6VxGZVJvmqHoN3",
       "header":"Lyricus",
       "subheader":"React.js, Redux, NPM, Node.js, Express, Jest, Superagent, Material-UI",
       "description":"Utilizes React Hooks to fetch musical artists and lyrics. The design is WCAG AA compliant and uses minimalist illustration with UX features like pagination and breadcrumbs.",
