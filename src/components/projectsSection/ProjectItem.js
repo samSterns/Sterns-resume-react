@@ -25,17 +25,13 @@ export const Project1 = ({ header, siteURL, subheader, description, githubURL })
           <Typography gutterBottom variant="h5" component="h2">
             <h2><a className={styles.ProjectLink}  href={siteURL} target="blank"> {header}</a></h2>
           </Typography>
-  
           <Typography variant="body2" component="h3">
             <h3>{subheader}</h3>
           </Typography>
-  
           <Typography component="p">
             <p>{description}</p>
           </Typography>
-  
         </CardContent>
-
         <CardActions>
           <Button size="small" color="primary"  target="_blank">
             <a className={styles.ProjectLink} href={githubURL} target="blank">
