@@ -1,7 +1,7 @@
 import React from 'react';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa'; 
-import { MdEmail } from 'react-icons/md';
+
 import IconButton from '@material-ui/core/IconButton';
 
 import styles from '../landingPage/styles/Footer.css';

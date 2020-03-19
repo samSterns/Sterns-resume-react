@@ -4,15 +4,18 @@ import ProjectSection from '../containers/ProjectSection';
 import AboutSection from '../containers/AboutSection';
 import EmailForm from '../containers/EmailForm';
 import Footer from '../components/landingPage/Footer';
+import { MediaQueryProvider } from 'react-media-query-hoc';
 
 export default function App() {
   return (
     <>
-      <LandingPage />
-      <AboutSection />
-      <ProjectSection />
-      <EmailForm /> 
-      <Footer />
+      <MediaQueryProvider>
+        <LandingPage />
+        <AboutSection />
+        <ProjectSection />
+        <EmailForm /> 
+        <Footer />
+      </MediaQueryProvider>
     </>
   );
 }

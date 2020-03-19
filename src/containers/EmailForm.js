@@ -31,7 +31,7 @@ export default function EmailForm() {
             <textarea name="message"></textarea>
           </li>
           <li>
-            <button type="submit">Send</button>
+            <button className={styles.emailFormButton} type="submit">Send</button>
           </li>
         </ul>
       </form>

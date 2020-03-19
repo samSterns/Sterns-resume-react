@@ -1,3 +1,13 @@
+.DivEmail {
+    background-image: url('./asset/avatar.png');
+    background-repeat: no-repeat;
+  
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%
+}
+
 .Form {
     padding-left: 20%;
 }
@@ -23,7 +33,7 @@ label{
     height: 100%;
 }
 
-button {
+.emailFormButton {
     font-size: 100%;
     background-color: #DE6D43;
     color: white;
@@ -56,8 +66,6 @@ select{
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
 }
-
-
 
 input[type=text]:focus, 
 input[type=email]:focus,

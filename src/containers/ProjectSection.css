@@ -6,3 +6,14 @@
     text-align: center;
 }
 
+.ProjectList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 600px) {
+    .ProjectList {
+        grid-template-columns: 1fr
+    }
+  }
+
