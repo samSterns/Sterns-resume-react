@@ -23,7 +23,7 @@ export const Project1 = ({ header, siteURL, subheader, description, githubURL })
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            <h2><a className={styles.ProjectLink}  href={siteURL}> {header}</a></h2>
+            <h2><a className={styles.ProjectLink}  href={siteURL} target="blank"> {header}</a></h2>
           </Typography>
   
           <Typography variant="body2" component="h3">
@@ -38,7 +38,7 @@ export const Project1 = ({ header, siteURL, subheader, description, githubURL })
 
         <CardActions>
           <Button size="small" color="primary"  target="_blank">
-            <a className={styles.ProjectLink} href={githubURL}>
+            <a className={styles.ProjectLink} href={githubURL} target="blank">
               <FaGithub alt="click here to Visit this project's git hub" size={36}/> </a>
           </Button> 
         </CardActions>
