@@ -37,9 +37,9 @@
     }, 
     "projectCovrLettr":{
       "header":"Covr Lettr",
-      "subheader":"React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent",
-      "description":"Job specific details populate original cover letters. Natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest scoring one. 4 day sprint with 4 teammates",
-      "siteURL":"https://pet-pals.netlify.com",
+      "subheader":"MongoDB, Mongoose, NPM, Node.js, Express, Natural Language Processing, Jest, Superagent",
+      "description":"The cover letters are populated with a user's job specific details. Then, a natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest scoring one. 4 day sprint with 4 teammates",
+      "siteURL":"https://github.com/covrLettr/covrLettr",
       "githubURL":"https://github.com/covrLettr/covrLettr"
     }, 
     "projectLyricus":{
