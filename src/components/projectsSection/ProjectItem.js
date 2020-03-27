@@ -19,14 +19,15 @@ export const Project1 = ({ header, siteURL, subheader, description, githubURL })
       <Card className={styles.Card}>
         <CardMedia className={styles.ProjectImage} 
           image={imageP}
-          title={header}
+          title={header} 
+          alt="animation gif previewing `${{header}}`"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            <h2><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h2>
+          <Typography gutterBottom variant="h5" component="h3">
+            <h3><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h3>
           </Typography>
-          <Typography variant="body2" component="h3">
-            <h3>{subheader}</h3>
+          <Typography variant="body2" component="h4">
+            <h4>{subheader}</h4>
           </Typography>
           <Typography component="p">
             <p>{description}</p>
@@ -52,14 +53,15 @@ export const Project2 = ({ header, siteURL, subheader, description, githubURL })
         <CardMedia className={styles.ProjectImage} 
           image={imageCL}
           title={header}
+          alt="animation gif previewing `${{header}}`"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            <h2><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h2>
+          <Typography gutterBottom variant="h5" component="h3">
+            <h3><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h3>
           </Typography>
   
-          <Typography variant="body2" component="h3">
-            <h3>{subheader}</h3>
+          <Typography variant="body2" component="h4">
+            <h4>{subheader}</h4>
           </Typography>
   
           <Typography component="p">
@@ -88,14 +90,15 @@ export const Project3 = ({ header, siteURL, subheader, description, githubURL })
         <CardMedia className={styles.ProjectImage} 
           image={imageL}
           title={header}
+          alt="animation gif previewing `${{header}}`"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            <h2><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h2>
+          <Typography gutterBottom variant="h5" component="h3">
+            <h3><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h3>
           </Typography>
   
-          <Typography variant="body2" component="h3">
-            <h3>{subheader}</h3>
+          <Typography variant="body2" component="h4">
+            <h4>{subheader}</h4>
           </Typography>
   
           <Typography component="p">
@@ -124,14 +127,15 @@ export const Project4 = ({ header, siteURL, subheader, description, githubURL })
         <CardMedia className={styles.ProjectImage} 
           image={imageFTM}
           title={header}
+          alt="animation gif previewing `${{header}}`"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            <h2><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h2>
+          <Typography gutterBottom variant="h5" component="h3">
+            <h3><a className={styles.ProjectLink}  href={siteURL} target="_blank"> {header}</a></h3>
           </Typography>
   
-          <Typography variant="body2" component="h3">
-            <h3>{subheader}</h3>
+          <Typography variant="body2" component="h4">
+            <h4>{subheader}</h4>
           </Typography>
   
           <Typography component="p">

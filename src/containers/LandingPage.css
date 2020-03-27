@@ -15,12 +15,7 @@ font-family: 'Raleway', sans-serif; */
     grid-template-columns: 100%;
   
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('../components/landingPage/styles/assets/heroImage2.jpeg');
-  
-    /* background-position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../components/landingPage/styles/assets/heroImage2.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -37,53 +32,3 @@ font-family: 'Raleway', sans-serif; */
       grid-template-rows: 1fr 2fr;
     }
   }
-
-
-
-
-
-
-
-/* * {
-  margin: auto;
-
-  .item-a {
-    grid-area: header;
-  }
-  .item-b {
-    grid-area: leftside;
-  }
-  .item-c {
-    grid-area: rightTop;
-  }
-  .item-d {
-    grid-area: leftBottom;
-  }
-  .item-e {
-    grid-area: rightBottoms;
-  }
-  .item-f {
-    grid-area: footer;
-
-  }
-  
-  #hero {
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 50%));
-    grid-template-rows: 10% 40% 40% 10%;
-    grid-template-areas: 
-      "header header"
-      "leftTop rightTop"
-      "leftBottom rightBottom"
-      "footer footer";
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../components/resume/styles/assets/heroImage.jpeg');
-    height: 100vh;
-    margin: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-}; */

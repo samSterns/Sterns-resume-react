@@ -12,7 +12,7 @@ export default function EmailForm() {
       </div> */}
       <form className={styles.Form} name="contact" method="POST" data-netlify="true">
         <ul className={styles.formList}>
-          <h3>Let's Stay in Touch</h3>
+          <h2>Let's Stay in Touch</h2>
           <li>
             <label>Name:</label>
             <input type="text" name="name" />
