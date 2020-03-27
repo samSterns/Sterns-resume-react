@@ -1,23 +1,16 @@
 
 .Profile{
       
-      font-size: 100%;
-      line-height: 22px;
+      font-size: 1.5rem;
+      
+      line-height: 2rem;
       padding: 2%;
       font-family: 'Montserrat', sans-serif;
       color: #F8F2D2;
       justify-content: center;
       text-align: center;
       vertical-align: bottom;
-      padding-top: 10%;
 
-
-      div {
-            background: transparent;
-            color: #F8F2D2;
-            padding: 2%;
-            font-size: 100%;
-            justify-content: center;
-      }
+      background-color: rgba(0, 0, 0, 0.4);
 
 }

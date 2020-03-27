@@ -17,10 +17,30 @@
     padding-top: 56.25%;
 
 }
-h3 {
+h4 {
     color: #DE6D43;
+    text-align: left;
+    font-size: 100%;
  }
 
 a {
     color: #3976B5; 
+
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+a:focus{
+    text-decoration: underline;
+}
+
+a:active {
+    border: 1px solid  #3976B5
+}
+
+a:visited {
+    color: purple;
 }
