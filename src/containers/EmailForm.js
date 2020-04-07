@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from '../containers/EmailForm.css';
-// import avatar from '../containers/asset/avatar.png';
+import avatar from '../containers/asset/short.svg';
 
 
 export default function EmailForm() {
   return (
     <div className={styles.DivEmail}>
-      {/* <div className={styles.LeftSide}>
+      <div className={styles.LeftSide}>
         
         <img src={avatar} />
-      </div> */}
+      </div>
       <form className={styles.Form} name="contact" method="POST" data-netlify="true">
         <ul className={styles.formList}>
           <h2>Let's Stay in Touch</h2>
