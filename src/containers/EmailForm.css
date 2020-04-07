@@ -1,11 +1,19 @@
-.DivEmail {
-    background-image: url('./asset/avatar.png');
-    background-repeat: no-repeat;
-  
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%
+
+.LeftSide {
+	z-index: -1;
+	height: 75%;
+	width: 75%;
+	position: absolute; 
+	padding-bottom: 10%;
+
+
+}
+
+.formList {
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	z-index: 1;
+	margin: 5%;
+	padding: 5% 5% 10% 25%;
 }
 
 h2 {
@@ -14,16 +22,6 @@ h2 {
 	text-align: center;
 }
 
-.Form {
-    padding-left: 20%;
-}
-
-.formList {
-    margin:10px auto;
-	max-width: 400px;
-	padding: 20px 12px 10px 20px;
-	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
 
 li {
 	padding: 0;
@@ -33,7 +31,6 @@ li {
 }
 label{
 	margin:0 0 3px 0;
-	padding:0px;
 	display:block;
     font-weight: bold;
     height: 100%;
