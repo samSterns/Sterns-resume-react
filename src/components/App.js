@@ -14,7 +14,7 @@ export default function App() {
         <AboutSection />
         <ProjectSection />
         <EmailForm /> 
-        <Footer />
+  
       </MediaQueryProvider>
     </>
   );

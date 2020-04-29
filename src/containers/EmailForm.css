@@ -1,34 +1,17 @@
-
-.LeftSide {
-	z-index: -1;
-	height: 75%;
-	width: 75%;
-	position: absolute; 
-	padding-bottom: 10%;
-
-
-}
-
-.formList {
+.Form {
 	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	z-index: 1;
 	margin: 5%;
 	padding: 5% 5% 10% 25%;
+	width: 50vw;
 }
 
 h2 {
-	color: #DE6D43;
+	color: #C55337;
 	font-size: 2em;
 	text-align: center;
 }
 
-
-li {
-	padding: 0;
-	display: block;
-	list-style: none;
-	margin: 10px 0 0 0;
-}
 label{
 	margin:0 0 3px 0;
 	display:block;
@@ -37,8 +20,10 @@ label{
 }
 
 .emailFormButton {
-    font-size: 100%;
-    background-color: #DE6D43;
+	font-size: 100%;
+	padding: 40px;
+	background-color: #C55337;
+	justify-content: center;
     color: white;
     border: 1px solid gray;
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);

@@ -18,7 +18,7 @@
 
 }
 h4 {
-    color: #DE6D43;
+    color: #C55337;
     text-align: left;
     font-size: 100%;
  }
@@ -38,9 +38,9 @@ a:focus{
 }
 
 a:active {
-    border: 1px solid  #3976B5
+    border: 1px solid  #406E8E;
 }
 
 a:visited {
-    color: purple;
+    color: #44355B;
 }
