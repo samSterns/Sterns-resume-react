@@ -1,25 +1,44 @@
-.ProjectItem {
-    justify-content: center;
+.ProjectItemMainSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.Card{
-    margin: 1rem 2rem;
-     border: 1px solid gray;
+@media (max-width: 600px) {
+    .ProjectItemMainSection{
+        grid-template-columns: 1fr
+    }
+  }
+
+.Project {
+    justify-content: center;
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    border-radius: 5%;
+    margin: 1rem;
 }
 
-.ProjectImage{
-    border: 1px solid #424846;
-  
-    padding-top: 56.25%;
-
+figcaption {
+    padding: .5em 1.5em;
+    font-family: Roboto;
 }
+
 h4 {
     color: #C55337;
     text-align: left;
-    font-size: 100%;
+    font-size: 2.5em;
+}
+
+
+
+
+img {
+    margin-top: .5em;
+    border-radius: 5%;
+
+
+} 
+/* h4 {
  }
 
 a {
@@ -42,4 +61,4 @@ a:active {
 
 a:visited {
     color: #44355B;
-}
+} */

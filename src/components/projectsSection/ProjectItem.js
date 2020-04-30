@@ -5,58 +5,60 @@ import imageCL from '../landingPage/styles/assets/CL.png';
 import imageL from '../landingPage/styles/assets/lyricus.gif';
 import imageFTM from '../landingPage/styles/assets/followMoney.gif';
 
-export const Projects = ({ header, siteURL, subheader, description, githubURL }) => {
+export const Projects = () => {
   return (
-    <main className={styles.ProjectItemMainSection}>
+    <>
+      <h3>My Projects</h3>
+      <section className={styles.ProjectItemMainSection}>
+        <div className={styles.Project} >
+          <figure className={styles.ProjectImage} >
+            <img src={imageP} alt="animation gif previewing Pet Pals project" />
+          </figure>
+          <figcaption>
+            <h4>Pet Pals</h4>
+            <h5>React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent</h5>
+            <p>A cooperative dog walking React.js/Redux CRUD web application.</p>
+          </figcaption>
+          <button>Learn More</button>
+        </div>
 
-      <div className={styles.Project1} >
-        <figure className={styles.ProjectImage} >
-          <img src={imageP} alt="animation gif previewing `${{ header }}`" />
-        </figure>
-        <figcaption>
-          <h3>{header}</h3>
-          <p>{subheader}</p>
-          <p>{description}</p>
-        </figcaption>
-        <button>Learn More</button>
-      </div>
+        <div className={styles.Project}>
+          <figure className={styles.ProjectImage} >
+            <img src={imageCL} alt="animation gif previewing Cover Letter project" />
+          </figure>
+          <figcaption>
+            <h4>Covr Lettr</h4>
+            <h5>Backend: MongoDB, Mongoose, NPM, Node.js, Express, Natural Language Processing, Jest, Superagent</h5>
+            <p>Users enter job specific details to generate original cover letters.</p>
+          </figcaption>
+          <button>Learn More</button>
+        </div>
 
-      <div className={styles.Project2}>
-        <figure className={styles.ProjectImage} >
-          <img src={imageCL} alt="animation gif previewing `${{ header }}`" />
-        </figure>
-        <figcaption>
-          <h3>{header}</h3>
-          <p>{subheader}</p>
-          <p>{description}</p>
-        </figcaption>
-        <button>Learn More</button>
-      </div>
+        <div className={styles.Project}>
+          <figure className={styles.ProjectImage} >
+            <img src={imageL} alt="animation gif previewing Lyricus project" />
+          </figure>
+          <figcaption>
+            <h4>Lyricus</h4>
+            <h5>React.js, Redux, NPM, Node.js, Express, Jest, Superagent, Material-UI</h5>
+            <p>Utilizes React Hooks to fetch musical artists and lyrics. The design is WCAG AA compliant and uses minimalist illustration with UX features like pagination and breadcrumbs.</p>
+          </figcaption>
+          <button>Learn More</button>
+        </div>
 
-      <div className={styles.Project3}>
-        <figure className={styles.ProjectImage} >
-          <img src={imageL} alt="animation gif previewing `${{ header }}`" />
-        </figure>
-        <figcaption>
-          <h3>{header}</h3>
-          <p>{subheader}</p>
-          <p>{description}</p>
-        </figcaption>
-        <button>Learn More</button>
-      </div>
+        <div className={styles.Project}>
+          <figure className={styles.ProjectImage} >
+            <img src={imageFTM} alt="animation gif previewing Follow the Money project" />
+          </figure>
+          <figcaption>
+            <h4>Follow the Money</h4>
+            <h5>Vanilla JavaScript, CSS, HTML</h5>
+            <p>A mobile-first and accessibility-friendly vanilla JavaScript web app that uses a third party API to make custom data visualizations.</p>
+          </figcaption>
+          <button>Learn More</button>
+        </div>
 
-      <div className={styles.Project4}>
-        <figure className={styles.ProjectImage} >
-          <img src={imageFTM} alt="animation gif previewing `${{ header }}`" />
-        </figure>
-        <figcaption>
-          <h3>{header}</h3>
-          <p>{subheader}</p>
-          <p>{description}</p>
-        </figcaption>
-        <button>Learn More</button>
-      </div>
-
-    </main>
+      </section>
+    </>
   );
 };

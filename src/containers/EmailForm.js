@@ -7,7 +7,7 @@ export default function EmailForm() {
   return (
     <div className={styles.DivEmail}>
 
-      <h2>Let's Stay in Touch</h2>
+      <h3>Let's Stay in Touch</h3>
    
       <form className={styles.Form} name="contact" method="POST" data-netlify="true">
          

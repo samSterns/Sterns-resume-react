@@ -8,7 +8,7 @@ export default function AboutSection() {
 
   return (
     <>
-      <h2>About Me</h2>
+      <h3>About Me</h3>
       <section className={styles.container}>
         <div>
           <div className={styles.gridItem} >
