@@ -23,7 +23,7 @@ const NavBar = () => {
           </a>
         </IconButton>
         <IconButton className={styles.NavItem}>    
-          <a href={'https://drive.google.com/open?id=10AtVa_UShMEK086VOdUDeLqZBYtaI24P'} target="_blank">
+          <a href={'https://drive.google.com/file/d/1rSnRYXl1L1fRdlEmFplDnsg0UDkm3Xt-/view?usp=sharing'} target="_blank">
             <FaFileDownload alt="click here to download my resume" className={styles.icon} size={36}/>
           </a>
         </IconButton>

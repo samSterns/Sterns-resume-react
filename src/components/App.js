@@ -1,9 +1,9 @@
 import React from 'react';
 import LandingPage from '../containers/LandingPage';
-import ProjectSection from '../containers/ProjectSection';
+import { Projects } from '../components/projectsSection/ProjectItem';
 import AboutSection from '../containers/AboutSection';
 import EmailForm from '../containers/EmailForm';
-import Footer from '../components/landingPage/Footer';
+// import Footer from '../components/landingPage/Footer';
 import { MediaQueryProvider } from 'react-media-query-hoc';
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
       <MediaQueryProvider>
         <LandingPage />
         <AboutSection />
-        <ProjectSection />
+        <Projects />
         <EmailForm /> 
   
       </MediaQueryProvider>

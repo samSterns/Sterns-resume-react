@@ -19,7 +19,7 @@ label{
     height: 100%;
 }
 
-.emailFormButton {
+button {
 	font-size: 100%;
 	padding: 40px;
 	background-color: #C55337;

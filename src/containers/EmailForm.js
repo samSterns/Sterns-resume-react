@@ -27,7 +27,6 @@ export default function EmailForm() {
 
         <div className={styles.emailFormButton}>
           <button type="submit">Send</button>
-
         </div>
     
       </form>
