@@ -26,9 +26,17 @@ img {
     align-self: center;
 }
 
+h4 {
+  justify-content: center;
+  font-size: 2em;
+  text-align: center;
+  margin: .3em;
+}
+
 .AboutP {
     color: black;
     font-size: 100%;
+    font-family: Roboto;
     text-align: center;
-    padding: .3rem 2rem;
+    padding: 0 1em 3em 1em;
 } 

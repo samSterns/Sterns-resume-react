@@ -4,8 +4,9 @@ import imageP from '../landingPage/styles/assets/petPals.gif';
 import imageCL from '../landingPage/styles/assets/CL.png';
 import imageL from '../landingPage/styles/assets/lyricus.gif';
 import imageFTM from '../landingPage/styles/assets/followMoney.gif';
+import { Link } from 'react-router-dom';
 
-export const Projects = () => {
+export const ProjectList = () => {
   return (
     <>
       <h3>My Projects</h3>
@@ -19,7 +20,7 @@ export const Projects = () => {
             <h5>React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent</h5>
             <p>A cooperative dog walking React.js/Redux CRUD web application.</p>
           </figcaption>
-          <button>Learn More</button>
+          <Link to={'/ProjectDetailPetPals'}>Learn More </Link>
         </div>
 
         <div className={styles.Project}>
