@@ -7,11 +7,11 @@
 
   
   .gridItem {
-    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    /* -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
-    border-radius: 5%;
-    margin: 1rem;
+    border-radius: 5%; */
+    margin: 1.3rem;
 }
 
 @media (max-width: 600px) {
