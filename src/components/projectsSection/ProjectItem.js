@@ -20,7 +20,7 @@ export const ProjectList = () => {
             <h5>React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent</h5>
             <p>A cooperative dog walking React.js/Redux CRUD web application.</p>
           </figcaption>
-          <Link to={'/:ProjectDetailPetPals'}>Learn More </Link>
+          <Link to={'/ProjectDetailPetPals'}>Learn More </Link>
         </div>
 
         <div className={styles.Project}>

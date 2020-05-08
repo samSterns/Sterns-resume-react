@@ -5,25 +5,39 @@ import imageCL from '../landingPage/styles/assets/CL.png';
 import imageL from '../landingPage/styles/assets/lyricus.gif';
 import imageFTM from '../landingPage/styles/assets/followMoney.gif';
 import styles from '../projectsSection/projectDetail.css';
+import NavBar from '../landingPage/NavBar'; 
 
 export const ProjectDetailPetPals = ({ match }) => {
   return (
-    <div className={styles.projectDetailContainer}>
+    <>
       <header>
-        <a>
+        <a className={styles.Navbar}>
           <FaHome alt="click here to go back home" size={36}/>
         </a>
+        <NavBar />
       </header>
-      <section>
-        <header>Pet Pals</header>
-        <figure>
-          <img src={imageP} alt="GIF previewing Pet Pals project" />
-        </figure>
-        <a><FaLink alt="click here to Visit this project's deployed site" size={36}/>Live Site</a>
-        <a className={styles.ProjectLink} href={githubURL} target="_blank">
-          <FaGithub alt="click here to Visit this project's git hub" size={36}/>Git Hub </a>
 
-        <article>
+      <section className={styles.projectDetailContainer}>
+
+        <article className={styles.leftSideContainer}>
+         
+          <figure>
+            <img src={imageP} alt="GIF previewing Pet Pals project" />
+          </figure>
+          
+          <div className={styles.ProjectLinkContainer} >
+            <a className={styles.ProjectLink} >
+              <FaLink alt="click here to Visit this project's deployed site" size={36}/>
+            Live Site
+            </a>
+
+            <a className={styles.ProjectLink} href="https://github.com/Pet-Project-Alchemy" target="_blank">
+              <FaGithub alt="click here to Visit this project's git hub" size={36}/>Git Hub </a>
+          </div>
+        </article>
+
+        <article className={styles.Contributions}>
+          <h1>Pet Pals</h1>
           <ul>
             <li>Cooperative dog walking React.js/Redux CRUD web application
 Detailed user profiles saved in MongoDB/mongoose schemas and AWS S3 storage for the images of the user and their pup </li>
@@ -34,9 +48,8 @@ Detailed user profiles saved in MongoDB/mongoose schemas and AWS S3 storage for 
           </ul>
         </article>
 
-
       </section>
-    </div>
+    </>
   );
 };
 
