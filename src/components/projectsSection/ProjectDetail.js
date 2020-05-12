@@ -38,12 +38,16 @@ export const ProjectDetailPetPals = () => {
         <article className={styles.Contributions}>
           <h1 className={styles.ContributionsHeader}>Pet Pals</h1>
           <ul className={styles.ContributionsList}> 
-            <li>Cooperative dog walking React.js/Redux CRUD web application
-Detailed user profiles saved in MongoDB/mongoose schemas and AWS S3 storage for the images of the user and their pup </li>
+            <h2>About the Project</h2>
+            <li>Cooperative dog walking <em>React.js/Redux</em> CRUD web application </li>
+            <li>Detailed user profiles saved in <em> MongoDB/mongoose</em> schemas </li>
+            <li>AWS S3 storage for the images of the user and their pup </li>
             <li>Sass styling utilizing specifically defined variable names </li>
-            <li>Agile team of 5 Alchemy Code Lab students in a week-long sprint </li>
-            <li>I contributed the real-time messaging feature with Socket.io, Node.js, and Express</li>
-            <li>I researched and designed the UX architecture</li>
+            <li>Agile team of 5 Alchemy Code Lab students in a week-long sprint for our final project</li>
+            <h2>My Contributions</h2>
+            <li>I developed the real-time messaging feature with <strong>Socket.io, Node.js, and Express</strong></li>
+            <li>I researched and designed the <strong>UX architecture</strong></li>
+            <li>I led the team from ideation through development and to production</li>
           </ul>
         </article>
 
@@ -56,14 +60,23 @@ export const ProjectDetailFollowTheMoney = () => {
   return (
     <>
       <header>
-        <a className={styles.ProjectsNavbar}>
+        <Link to="/" className={styles.ProjectsNavbar}>
           <FaHome alt="click here to go back home" size={36}/>
-        </a>
+        </Link>
         <NavBar />
       </header>
 
       <section className={styles.projectDetailContainer}>
-
+        <article className={styles.Contributions}>
+          <h1 className={styles.ContributionsHeader}>Follow the Money</h1>
+          <ul className={styles.ContributionsList}> 
+            <li>A mobile-first and accessibility-friendly vanilla JavaScript web app </li>
+            <li> Data from the third party Federal Elections Commission API </li>
+            <li>Sankey graph displays custom data visualizations that demonstrate the dollar amount of contributions to the primary presidential campaigns</li>
+            <li>The accessibility is increased by the interactive mirco-copy and clean design.</li>
+            <li>I researched and designed the UX architecture</li>
+          </ul>
+        </article>
         <article className={styles.leftSideContainer}>
           <figure>
             <img classNAme={styles.ProjectDetailImg} src={imageFTM} alt="GIF previewing Pet Pals project" />
@@ -79,16 +92,7 @@ export const ProjectDetailFollowTheMoney = () => {
           </div>
         </article>
 
-        <article className={styles.Contributions}>
-          <h1 className={styles.ContributionsHeader}>Follow the Money</h1>
-          <ul className={styles.ContributionsList}> 
-            <li>A mobile-first and accessibility-friendly vanilla JavaScript web app </li>
-            <li> Data from the third party Federal Elections Commission API </li>
-            <li>Sankey graph displays custom data visualizations that demonstrate the dollar amount of contributions to the primary presidential campaigns</li>
-            <li>The accessibility is increased by the interactive mirco-copy and clean design.</li>
-            <li>I researched and designed the UX architecture</li>
-          </ul>
-        </article>
+
 
       </section>
     </>
@@ -99,15 +103,23 @@ export const ProjectDetailCovrLettr = () => {
   return (
     <>
       <header>
-        <a className={styles.ProjectsNavbar}>
+        <Link to="/" className={styles.ProjectsNavbar}>
           <FaHome alt="click here to go back home" size={36}/>
-        </a>
+        </Link>
         <NavBar />
       </header>
 
       <section className={styles.projectDetailContainer}>
 
-        <article className={styles.leftSideContainer}>
+        <article className={styles.Contributions}>
+          <h1 className={styles.ContributionsHeader}>Covr Lettr</h1>
+          <ul className={styles.ContributionsList}> 
+            <li>Users enter job specific details to generate original cover letters</li>
+            <li> Backend 4 day student group project w/ MongoDB, Express, Node.js</li>
+            <li>NPM natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest-scoring one</li>
+            <li>I led the team from ideation through development to production</li>
+          </ul>
+         
           <figure>
             <img classNAme={styles.ProjectDetailImg} src={imageCL} alt="GIF previewing the Cover Letter project" />
           </figure>
@@ -115,16 +127,7 @@ export const ProjectDetailCovrLettr = () => {
             <a className={styles.ProjectLink} href="https://github.com/covrLettr/covrLettr" target="_blank">
               <FaGithub alt="click here to Visit this project's git hub" size={36}/>Git Hub </a>
           </div>
-        </article>
-
-        <article className={styles.Contributions}>
-          <h1 className={styles.ContributionsHeader}>Follow the Money</h1>
-          <ul className={styles.ContributionsList}> 
-            <li>Users enter job specific details to generate original cover letters</li>
-            <li> Backend 4 day student group project w/ MongoDB, Express, Node.js</li>
-            <li>NPM natural language processing sentiment analysis scores over a million variations of letters, and outputs the highest-scoring one</li>
-            <li>I led the team from ideation through development to production</li>
-          </ul>
+     
         </article>
 
       </section>
@@ -136,9 +139,9 @@ export const ProjectDetailLyricus = () => {
   return (
     <>
       <header>
-        <a className={styles.ProjectsNavbar}>
+        <Link to="/" className={styles.ProjectsNavbar}>
           <FaHome alt="click here to go back home" size={36}/>
-        </a>
+        </Link>
         <NavBar />
       </header>
 

@@ -1,31 +1,28 @@
 .projectDetailContainer {
-    width: 75%;
     margin: auto;
-    display: grid;
-    grid-template-areas: "ProjectDetailImg Contributions"
-                         "ProjectLink Contributions";
-                         
-    grid-template-columns: 1fr 1.25fr;
-    grid-template-rows: min-content;
-    row-gap: 20px;
+    -webkit-column-count: 2 50vw;
+    -moz-column-count: 2 5vw;
+         column-count: 2 50vw;
+
 }
-/* @media (max-width: 700px) {
+@media (max-width: 700px) {
     .projectDetailContainer{
-        grid-template-columns: 1fr
+        /* grid-template-columns: 1fr */
+        -webkit-column-count: 1 100vw;
+        -moz-column-count: 1 100vw;
+             column-count: 1 100vw;
     }
-} */
-@media screen and (max-width: 1200px){
+}
+/* @media screen and (max-width: 1200px){
     width: 90%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20vw;
-    grid-template-areas: "ProjectDetailImg" 
-                          "Contributions"
                           "ProjectLink";
     grid-template-rows: max-content;
     grid-template-columns: 1fr;
     justify-content: center;
-}
+} */
 
 header {
     display: flex;
@@ -46,11 +43,11 @@ header {
 
 
 
-.ProjectDetailImg {
+figure {
     height: auto;
-    width: 40vw;
-    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    width: 50vw;
     margin: 1rem;
+    padding-bottom: 1em;
 }
 
 .projectDetailContainer {
@@ -58,6 +55,12 @@ header {
     flex-direction: row;
     align-content: center;
     margin: 2em;
+    padding-left: 2em;
+}
+
+.ProjectLinkContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .ProjectLink {
@@ -65,9 +68,9 @@ header {
     border: 2px solid #406E8E;
     border-radius: 8%;
     height: 25px;
-    width: 25px;
+    width: auto;
     padding: 2.5em 2em;
-    margin: 3em;
+    margin: 3em 2em;
     align-content: center;
 
 }
@@ -104,12 +107,14 @@ header {
     line-height: 24px;
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     border-radius: 5%;
-    padding: 3em;
+    padding: 1em;
     margin: 1rem;
+    height: auto;
 }
 
 .ContributionsList {
     padding: 1em;
+    width: 60%;
 }
 .ContributionsHeader {
     color: #C55337;
