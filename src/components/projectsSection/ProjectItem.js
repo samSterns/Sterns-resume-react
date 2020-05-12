@@ -6,7 +6,7 @@ import imageL from '../landingPage/styles/assets/lyricus.gif';
 import imageFTM from '../landingPage/styles/assets/followMoney.gif';
 import { Link } from 'react-router-dom';
 
-export const ProjectList = () => {
+export const ProjectList = ({ match }) => {
   return (
     <>
       <h3>My Projects</h3>
@@ -20,7 +20,7 @@ export const ProjectList = () => {
             <h5>React.js,  Redux, Sass, Socket.io, MongoDB, Mongoose, NPM, Node.js, Express, AWS S3, Jest, Superagent</h5>
             <p>A cooperative dog walking React.js/Redux CRUD web application.</p>
           </figcaption>
-          <Link to={'/ProjectDetailPetPals'}>Learn More </Link>
+          <Link to='/ProjectDetailPetPals' className={styles.LearnMoreProjectBtn}> Learn More →</Link>
         </div>
 
         <div className={styles.Project}>
@@ -31,8 +31,8 @@ export const ProjectList = () => {
             <h4>Covr Lettr</h4>
             <h5>Backend: MongoDB, Mongoose, NPM, Node.js, Express, Natural Language Processing, Jest, Superagent</h5>
             <p>Users enter job specific details to generate original cover letters.</p>
+            <Link to='/ProjectDetailCovrLettr' className={styles.LearnMoreProjectBtn}> Learn More →</Link>
           </figcaption>
-          <button>Learn More</button>
         </div>
 
         <div className={styles.Project}>
@@ -44,7 +44,7 @@ export const ProjectList = () => {
             <h5>React.js, Redux, NPM, Node.js, Express, Jest, Superagent, Material-UI</h5>
             <p>Utilizes React Hooks to fetch musical artists and lyrics. The design is WCAG AA compliant and uses minimalist illustration with UX features like pagination and breadcrumbs.</p>
           </figcaption>
-          <button>Learn More</button>
+          <Link to='/ProjectDetailLyricus' className={styles.LearnMoreProjectBtn}> Learn More →</Link>
         </div>
 
         <div className={styles.Project}>
@@ -56,7 +56,7 @@ export const ProjectList = () => {
             <h5>Vanilla JavaScript, CSS, HTML</h5>
             <p>A mobile-first and accessibility-friendly vanilla JavaScript web app that uses a third party API to make custom data visualizations.</p>
           </figcaption>
-          <button>Learn More</button>
+          <Link to='/ProjectDetailFollowTheMoney' className={styles.LearnMoreProjectBtn}> Learn More →</Link>
         </div>
 
       </section>
