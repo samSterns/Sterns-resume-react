@@ -1,46 +1,70 @@
-.ProjectItem {
-    justify-content: center;
-    
+.ProjectItemMainSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.Card{
-    margin: 1rem 2rem;
-     border: 1px solid gray;
+@media (max-width: 700px) {
+    .ProjectItemMainSection{
+        grid-template-columns: 1fr
+    }
+  }
+
+.Project {
+    justify-content: center;
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
-}
-
-.ProjectImage{
-    border: 1px solid #424846;
-  
-    padding-top: 56.25%;
-
-}
-h4 {
-    color: #DE6D43;
-    text-align: left;
-    font-size: 100%;
- }
-
-a {
-    color: #3976B5; 
-
-}
-
-a:hover {
-    text-decoration: underline;
+    border-radius: 5%;
+    margin: 1rem;
     
 }
 
-a:focus{
+figcaption {
+    padding: .5em 1.5em;
+    font-family: Roboto;
+}
+
+h4 {
+    color: #C55337;
+    text-align: left;
+    font-size: 2.5em;
+}
+
+
+img {
+    margin-top: .5em;
+    border-radius: 5%;
+} 
+
+.LearnMoreProjectBtn {
+    /* box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    border: 2px solid #406E8E;
+    border-radius: 8%; */
+    height: 15px;
+    width: 25px;
+    padding: 2.5em 2em 3em 3em;
+    margin: 3em;
+    align-content: center;
+    text-decoration-color: #406E8E;
     text-decoration: underline;
+    line-height: 20px;
+
 }
 
-a:active {
-    border: 1px solid  #3976B5
+.LearnMoreProjectBtn:hover {
+    text-decoration: underline;
+    text-decoration-color: #C55337;
+    color: #C55337;
+}
+.LearnMoreProjectBtn:focus {
+    text-decoration: underline;
+    text-decoration-color: #C55337;
+    color: #C55337;
 }
 
-a:visited {
-    color: purple;
+
+.LearnMoreProjectBtn:visited {
+    text-decoration-color: #44355B;
+    color: #44355B;
 }
+
