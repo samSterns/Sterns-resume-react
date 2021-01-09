@@ -11,7 +11,7 @@ export default class LandingPage extends Component {
     return (
       <main className={styles.Card}>
         <img className={styles.ProfileImg} src={Pic} />
-        <p>Sam Sterns is a Product Designer & Front End Developer who believes technology is a tool to build equity, which is why they focus on creating inclusive, impactful, and maintainable digital products.  New portfolio projects coming soon.</p>
+        <p>Sam Sterns is a Product Designer & Front End Developer who believes technology is a tool to build equity, which is why they focus on creating inclusive, impactful, and maintainable digital products. <br/> New portfolio projects coming soon.</p>
         <NavBar />
       </main>
        
