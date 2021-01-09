@@ -4,9 +4,9 @@ import styles from './styles/Profile.css';
 
 const Profile = ({ profileStatement }) => {
   return (
-    <main className={styles.Profile}>
-      <p> {profileStatement}</p>
-    </main>
+    
+    <p className={styles.Profile}> {profileStatement}</p>
+  
   ); 
 };
 

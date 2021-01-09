@@ -1,16 +1,22 @@
 
 .Profile{
       
-      font-size: 1.5rem;
-      
-      line-height: 2rem;
+      width: 30rem;
+      height: 20rem;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+      background: inherit;
+      overflow: hidden;
+      font-size: 1rem;
+      line-height: 1.5rem;
       padding: 2%;
       font-family: 'Montserrat', sans-serif;
-      color: #F8F2D2;
-      justify-content: center;
-      text-align: center;
       vertical-align: bottom;
 
-      background-color: rgba(0, 0, 0, 0.4);
-
+      /* background-color: rgba(0, 0, 0, 0.4); */
+background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

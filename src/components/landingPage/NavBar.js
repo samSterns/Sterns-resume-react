@@ -4,7 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 // import { MdEmail } from 'react-icons/md'; 
-import { FaFileDownload } from 'react-icons/fa'; 
+// import { FaFileDownload } from 'react-icons/fa'; 
 
 const NavBar = () => {
 
@@ -22,11 +22,11 @@ const NavBar = () => {
             <FaLinkedin alt="click here to Visit my Linked In" className={styles.icon} size={36}/>
           </a>
         </IconButton>
-        <IconButton className={styles.NavItem}>    
+        {/* <IconButton className={styles.NavItem}>    
           <a href={'https://drive.google.com/file/d/1rSnRYXl1L1fRdlEmFplDnsg0UDkm3Xt-/view?usp=sharing'} target="_blank">
             <FaFileDownload alt="click here to download my resume" className={styles.icon} size={36}/>
           </a>
-        </IconButton>
+        </IconButton> */}
       </Toolbar>
     </>
   );
