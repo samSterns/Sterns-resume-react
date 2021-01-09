@@ -2,33 +2,35 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif; */
-.Resume {
-  height: 100vh;
-  width: 100vw;
-  margin: auto;
-}
 
-  .Hero {
-   
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 100%;
+  main {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+  
   
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../components/landingPage/styles/assets/heroImage2.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
+  }
+  .ProfileImg {
+    height: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 100%;
   }
 
-  @media (min-width: 768px) {
-    .Hero{
-      width: 100vw;
-      height: 100vh;
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 1fr 2fr;
-    }
+  p {
+    padding: 5px;
+    text-align: center;
+   
   }
